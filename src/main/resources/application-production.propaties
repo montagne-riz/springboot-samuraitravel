@@ -19,3 +19,6 @@ stripe.api-key=${STRIPE_API_KEY}
 stripe.success-url=${STRIPE_SUCCESS_URL}
 stripe.cancel-url=${STRIPE_CANCEL_URL}
 stripe.webhook-secret=${STRIPE_WEBHOOK_SECRET}
+
+server.servlet.session.cookie.secure=true
+server.servlet.session.cookie.http-only=true
